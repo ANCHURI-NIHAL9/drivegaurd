@@ -81,6 +81,7 @@ pip install --upgrade pip
 
 
 2.Set Up MySQL
+
 Start your MySQL server.
 Create a database named driveguard:
 sql
@@ -88,11 +89,9 @@ CREATE DATABASE driveguard;
 
 
 3. Add Alert Sound Files
-Place your alert sound files (alert_sound.wav, alert_sound2.wav) in a sounds/ directory in the project root.
-Run the Project
 
-bash
-python driveguard.py
+Place your alert sound files (alert_sound.wav, alert_sound2.wav) in a sounds/ directory in the project root.
+
 
 📦 Folder Structure
 driveguard/
